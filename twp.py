@@ -8,10 +8,10 @@ import signal
 from urllib import urlencode
 from colorama import Fore, Back, Style
 
-consumerKey   ='zpZnD6t3MWkb0iwf0lhw3w'
-consumerSecret='KQ3OPTfcEZZMqUt2wE131MdNcUOwJRLyfDfXA3G1UnQ'
-accessToken   ='1269592123-T5xMxkB8TIhr67Nt3ZifLVttK9JPBPDtLOLPfAs'
-accessSecret  ='evXhjJGhlTnFI2yn4pvFFKv0vwr6BzUoouwV3fWEE5GmP'
+consumerKey   ='your consumer key'
+consumerSecret='yout consumer Secret'
+accessToken   ='your access token'
+accessSecret  ='your access secret'
 
 def getTimeLine(num):
     TL_URL='https://api.twitter.com/1.1/statuses/home_timeline.json'
